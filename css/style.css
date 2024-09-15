@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+
+header{
+    background-color: black;
+    height: 330px;
+}
+
+/*Foto logo*/
+
+.img-logo{
+    width: 15rem;
+    
+}
+
+.div-centrar-logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+header div nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    list-style: none;
+    
+    
+  }
+
+
+header div nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+
+
+
+
+.titulos-principales{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+/*index.html*/
+
+.div-main{
+    padding: 1.5rem;
+}
+
+/*foto para celular del consultorio*/
+.div-consultorio-celular{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+#consultorio-celular{
+    
+    width: 100%;
+    
+}
+
+
+
+#consultorio-celular, .texto-descriptivo-consultorio{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    gap: 20px;
+}
+
+.texto-descriptivo-consultorio{
+    height: 130px;
+    margin-bottom: 50px;
+}
+
+main{
+    text-align: center;
+}
+
+.mapa{
+    width: 90%;
+}
+
+
+/*jannello.html*/
+
+.imagen-jannello{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/*fernandez.html*/
+
+
+.imagen-fernandez{
+    width: 100%;
+    height: 23.5rem;
+}
+
+
+
+/*turnos.html*/
+
+
+.modifica-formulario{
+    height: 200px;
+    width: 200px;
+    margin-left: 26%;
+}
+
+
+
+
+/*preguntasf.html*/
+
+
+.main-preguntas{
+    text-align: left;
+    padding: 10px;
+
+}
+
+.preguntas{
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.respuesta-1{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+.preguntas-respuestas{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagen-instagram{
+    margin-top: 10px;
+}
+
+
+.whatsapp-icon{
+    width: 9%;
+}
+
+
+@media screen and(min) 
