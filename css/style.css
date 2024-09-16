@@ -125,10 +125,14 @@ main{
 
 /*turnos.html*/
 
+.main-turnos{
+    height: 25rem;
+}
 
 .modifica-formulario{
     height: 50px;
     width: 200px;
+    margin-left: 4.5rem;
     
     
 }
@@ -219,6 +223,9 @@ main{
 
     .main-turnos{
         height: 25rem;
+    }
+    .modifica-formulario{
+        margin-left: 43%;
     }
 
     /*Preguntas frecuentes desktop*/
