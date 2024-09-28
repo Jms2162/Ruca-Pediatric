@@ -110,7 +110,15 @@ main{
     @include wid (100%);
 }
 
+.body-menu{
+    background: linear-gradient(to right, white, $body-menu);
+}
+
 /*jannello.html*/
+
+.body-jannello{
+    background: linear-gradient(to right, white, $body-jannello);
+}
 
 .imagen-jannello{
     @include wid (100%);
@@ -119,6 +127,9 @@ main{
 
 /*fernandez.html*/
 
+.body-fernandez{
+    background: linear-gradient(to right, white, #f7e372);
+}
 
 .imagen-fernandez{
     @include wid (75%);
@@ -130,6 +141,10 @@ main{
 }
 
 /*turnos.html*/
+
+.body-turnos{
+    background: linear-gradient(to right, white, $body-turnos);
+}
 
 .main-turnos{
     @include hei (25rem);
@@ -143,7 +158,9 @@ main{
 
 /*preguntasf.html*/
 
-
+.body-preguntas{
+    background: linear-gradient(to right, white, #b7dddb);
+}
 .main-preguntas{
     text-align: left;
     padding: 10px;
