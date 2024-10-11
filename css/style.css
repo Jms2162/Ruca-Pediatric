@@ -182,10 +182,6 @@ main {
     margin-top: 2rem;
     font-weight: 300 bold;
   }
-
-  #consultorio-celular{
-    width: 80%;
-  }
   /*jannello desktop*/
   /*fernandez desktop*/
   .imagen-fernandez {
@@ -209,13 +205,6 @@ main {
   /*footer desktop*/
   .whatsapp-icon {
     width: 2rem;
-  }
-
-  footer{
-    margin-bottom: 1rem;
-  }
-  .footer-turnos{
-    margin-bottom: 1rem;
   }
 }
 
